@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Google Keep</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <script type="text/javascript" src="main.js"></script>
+    	<link href='https://fonts.googleapis.com/css?family=Gloria+Hallelujah' rel='stylesheet' type='text/css'>
+    	<link rel="stylesheet" type="text/css" href="login.css">
+</head>
+<body>
+	                   <div id="mySidenav" class="sidenav">
+	                   	<ul class="ul" id="ul-1">
+	                   		<li class="li" id="ul-1-li-1"> 
+						 		 <a href="#"> 
+						 		 	 <svg  width="24px" xmlns="http://www.w3.org/2000/svg" fill="#000000" viewBox="0 0 24 24" height="24px" class="sidenav-icon"><path d="M9 21c0 .55.45 1 1 1h4c.55 0 1-.45 1-1v-1H9v1zm3-19C8.13 2 5 5.13 5 9c0 2.38 1.19 4.47 3 5.74V17c0 .55.45 1 1 1h6c.55 0 1-.45 1-1v-2.26c1.81-1.27 3-3.36 3-5.74 0-3.87-3.13-7-7-7z"></path><path d="M0 0h24v24H0z" fill="none"></path><span class="li-sp">Notes</span>
+						 		 	 </svg>
+						 		 </a>
+						    </li>
+						    <li class="li" id="ul-1-li-2">
+						    	<a href="#">
+						    		 <svg width="24px" xmlns="http://www.w3.org/2000/svg" fill="#000000" viewBox="0 0 24 24" height="24px" class="sidenav-icon"><path d="m0 0h24v24h-24z" fill="none"></path><path d="m20.78 13.16l-6.05-3.02c-0.23-0.09-0.47-0.14-0.73-0.14h-1v-2h1.75c1.66 0 3-1.34 3-3s-1.34-3-3-3c-0.75 0-1.14 0.22-1.75 0.75v-0.75c0-1.1-0.9-2-2-2s-2 0.9-2 2v0.75c-0.61-0.53-1-0.75-1.75-0.75-1.66 0-3 1.34-3 3s1.34 3 3 3h1.75v8.31l-4.57-0.95c-0.1-0.02-0.21-0.03-0.32-0.03-0.41 0-0.79 0.17-1.06 0.44l-1.05 1.06 6.59 6.59c0.36 0.36 0.86 0.58 1.41 0.58h9.06c1 0 1.77-0.74 1.92-1.7l1-7.03c0.01-0.09 0.02-0.18 0.02-0.27 0-0.83-0.5-1.54-1.22-1.84zm-11.53-6.16h-2c-1.1 0-2-0.9-2-2s0.9-2 2-2 2 0.9 2 2v2zm3.5-2c0-1.1 0.9-2 2-2s2 0.9 2 2-0.9 2-2 2h-2v-2z"></path><span class="li-sp">Reminders</span>
+						    		 </svg>
+						    	</a>
+						    </li>	
+						</ul>					  
+						<ul class="ul" id="ul-2">
+					    	<div style="display: flex;">
+                                <div style="margin-left: 25px; font-size: 13px;">Labels</div>
+                                <div class="btm" id="btm-edit" style="cursor: pointer; "  >EDIT</div>
+                            </div>
+                            <li class="li" id="ul-2-li-1">
+                            	<a href="#">
+                            		<svg width="24px" xmlns="http://www.w3.org/2000/svg" fill="#000000" viewBox="0 0 24 24" height="24px" class="sidenav-icon"><path d="m19 13h-6v6h-2v-6h-6v-2h6v-6h2v6h6v2z"></path><path d="m0 0h24v24h-24z" fill="none"></path><span class="li-sp">Create new label</span>
+                            		</svg>
+                            	</a>
+                            </li>												
+					    </ul>
+
+                        <ul class="ul" id="ul-3">
+                        	
+                            <li class="li" id="ul-3-li-1"> 
+						 		 <a href="#"> 
+						 		 	<svg width="24px" xmlns="http://www.w3.org/2000/svg" fill="#000000" viewBox="0 0 24 24" height="24px" class="sidenav-icon"><path d="m20.54 5.23l-1.39-1.68c-0.27-0.34-0.68-0.55-1.15-0.55h-12c-0.47 0-0.88 0.21-1.16 0.55l-1.38 1.68c-0.29 0.34-0.46 0.79-0.46 1.27v12.5c0 1.1 0.9 2 2 2h14c1.1 0 2-0.9 2-2v-12.5c0-0.48-0.17-0.93-0.46-1.27zm-8.54 12.27l-5.5-5.5h3.5v-2h4v2h3.5l-5.5 5.5zm-6.88-12.5l0.81-1h12l0.94 1h-13.75z"></path><path d="m0 0h24v24h-24z" fill="none"></path><span class="li-sp">Archive</span>
+						 		 	 </svg>
+						 		 </a>
+						    </li>
+						    <li class="li" id="ul-3-li-2">
+						    	<a href="#">
+						    		 <svg width="24px" xmlns="http://www.w3.org/2000/svg" fill="#000000" viewBox="0 0 24 24" height="24px" class="sidenav-icon"><path d="m6 19c0 1.1 0.9 2 2 2h8c1.1 0 2-0.9 2-2v-12h-12v12zm13-15h-3.5l-1-1h-5l-1 1h-3.5v2h14v-2z"></path><path d="m0 0h24v24h-24z" fill="none"></path><span class="li-sp">Bin</span>
+						    		 </svg>
+						    	</a>
+						    </li>
+
+                        </ul>
+
+                        <ul class="ul" id="ul-4">
+                        	
+                            <li class="li" id="ul-4-li-1"> 
+						 		 <a href="#"> 
+						 		 	<svg width="24px" xmlns="http://www.w3.org/2000/svg" fill="#000000" viewBox="0 0 24 24" height="24px" class="sidenav-icon"><path d="m0 0h24v24h-24z" fill="none"></path><path d="m19.43 12.98c0.04-0.32 0.07-0.64 0.07-0.98s-0.03-0.66-0.07-0.98l2.11-1.65c0.19-0.15 0.24-0.42 0.12-0.64l-2-3.46c-0.12-0.22-0.39-0.3-0.61-0.22l-2.49 1c-0.52-0.4-1.08-0.73-1.69-0.98l-0.38-2.65c-0.03-0.24-0.24-0.42-0.49-0.42h-4c-0.25 0-0.46 0.18-0.49 0.42l-0.38 2.65c-0.61 0.25-1.17 0.59-1.69 0.98l-2.49-1c-0.23-0.09-0.49 0-0.61 0.22l-2 3.46c-0.13 0.22-0.07 0.49 0.12 0.64l2.11 1.65c-0.04 0.32-0.07 0.65-0.07 0.98s0.03 0.66 0.07 0.98l-2.11 1.65c-0.19 0.15-0.24 0.42-0.12 0.64l2 3.46c0.12 0.22 0.39 0.3 0.61 0.22l2.49-1c0.52 0.4 1.08 0.73 1.69 0.98l0.38 2.65c0.03 0.24 0.24 0.42 0.49 0.42h4c0.25 0 0.46-0.18 0.49-0.42l0.38-2.65c0.61-0.25 1.17-0.59 1.69-0.98l2.49 1c0.23 0.09 0.49 0 0.61-0.22l2-3.46c0.12-0.22 0.07-0.49-0.12-0.64l-2.11-1.65zm-7.43 2.52c-1.93 0-3.5-1.57-3.5-3.5s1.57-3.5 3.5-3.5 3.5 1.57 3.5 3.5-1.57 3.5-3.5 3.5z"></path><span class="li-sp">Settings</span>
+						 		 	 </svg>
+						 		 </a>
+						    </li>
+						    <li class="li" id="ul-4-li-2">
+						    	<a href="#">
+						    		 <svg width="24px" xmlns="http://www.w3.org/2000/svg" fill="#000000" viewBox="0 0 24 24" height="24px" class="sidenav-icon"><path d="M0 0h24v24H0z" fill="none"></path><path d="M20 2H4c-1.1 0-1.99.9-1.99 2L2 22l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-7 12h-2v-2h2v2zm0-4h-2V6h2v4z"></path><span class="li-sp">send feedback</span>
+						    		 </svg>
+						    	</a>
+						    </li>
+						     <li class="li" id="ul-4-li-3">
+						    	<a href="#">
+						    		<svg width="24px" xmlns="http://www.w3.org/2000/svg" fill="#000000" viewBox="0 0 24 24" height="24px" class="sidenav-icon"><path d="M0 0h24v24H0z" fill="none"></path><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17h-2v-2h2v2zm2.07-7.75l-.9.92C13.45 12.9 13 13.5 13 15h-2v-.5c0-1.1.45-2.1 1.17-2.83l1.24-1.26c.37-.36.59-.86.59-1.41 0-1.1-.9-2-2-2s-2 .9-2 2H8c0-2.21 1.79-4 4-4s4 1.79 4 4c0 .88-.36 1.68-.93 2.25z"></path><span class="li-sp">Help</span>
+						    		 </svg>
+						    	</a>
+						    </li>
+						     <li class="li" id="ul-4-li-4">
+						    	<a href="#">
+						    		<svg width="24px" xmlns="http://www.w3.org/2000/svg" fill="#000000" viewBox="0 0 24 24" height="24px" class="sidenav-icon"><path d="m0 0h24v24h-24z" fill="none"></path><path d="m3 6h18v-2h-18c-1.1 0-2 0.9-2 2v12c0 1.1 0.9 2 2 2h4v-2h-4v-12zm10 6h-4v1.78c-0.61 0.55-1 1.33-1 2.22s0.39 1.67 1 2.22v1.78h4v-1.78c0.61-0.55 1-1.34 1-2.22s-0.39-1.67-1-2.22v-1.78zm-2 5.5c-0.83 0-1.5-0.67-1.5-1.5s0.67-1.5 1.5-1.5 1.5 0.67 1.5 1.5-0.67 1.5-1.5 1.5zm11-9.5h-6c-0.5 0-1 0.5-1 1v10c0 0.5 0.5 1 1 1h6c0.5 0 1-0.5 1-1v-10c0-0.5-0.5-1-1-1zm-1 10h-4v-8h4v8z"></path><span class="li-sp">App downloads</span>
+						    		 </svg>
+						    	</a>
+						    </li>
+						     <li class="li" id="ul-4-li-5">
+						    	<a href="#">
+						    		<svg xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" viewBox="0 0 48 48" fill="#000000" class="sidenav-icon"><path d="M40 10H8c-2.21 0-3.98 1.79-3.98 4L4 34c0 2.21 1.79 4 4 4h32c2.21 0 4-1.79 4-4V14c0-2.21-1.79-4-4-4zm-18 6h4v4h-4v-4zm0 6h4v4h-4v-4zm-6-6h4v4h-4v-4zm0 6h4v4h-4v-4zm-2 4h-4v-4h4v4zm0-6h-4v-4h4v4zm18 14H16v-4h16v4zm0-8h-4v-4h4v4zm0-6h-4v-4h4v4zm6 6h-4v-4h4v4zm0-6h-4v-4h4v4z"></path><path d="M0 0h48v48H0zm0 0h48v48H0z" fill="none"></path><span class="li-sp">keyboard shortcuts</span>
+						    		 </svg>
+						    	</a>
+						    </li>
+
+                        </ul>
+                   
+             
+			  <div class="sidenav-bottom-links" style="margin-bottom: 100px;">
+                 <div style="display: flex;">
+			    	<a  href="https://www.google.com/policies/privacy/" target="_blank" class="hSRGPd" tabindex="0">Privacy</a>
+
+			    	<a href="http://www.google.com/policies/terms/" target="_blank" class="hSRGPd jWBFce" tabindex="0">Terms</a>
+			     </div>
+                 <div><a href="http://ssl.gstatic.com/keep/open-source_licenses.txt" target="_blank" class="hSRGPd" tabindex="0">Open-source licences</a></div>
+			        
+			  </div>
+		</div>
+
+
+			
+			             
+
+          <div class="topnav" id="myTopnav">
+
+          	   <!-- Use any element to open the sidenav -->
+			  <span class="sidenav-menu" onclick="openNav()"><img class="topnav-icon" id="sidenav-menu" src="./images/sidenav.png"></span>
+			 
+			  <img src="./images/google_keep.png">
+		        
+		      <form class="search-bar" style="display: flex; max-width: 750px; width: 100%; ">
+		      	  
+                    <button class="btm-serch-icon" aria-label="Search" role="button">
+		      			<svg focusable="false" height="24px" viewBox="0 0 24 24" width="24px" xmlns="http://www.w3.org/2000/svg"><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg>
+		      		</button>
+		      		<div class="">
+		      			<input  class="input-search" aria-label="Search" autocomplete="off" placeholder="Search" value="" name="q" role="combobox" type="text"></div>
+		      </form>	
+           
+                
+
+	              <div class="topnav-icon"><img style="width: 20px;"  src="./images/refresh.png"></div>
+	              <div class="topnav-icon"><img  src="./images/dubble_line.png"></div>
+	              <div class="topnav-icon"><img src="./images/gal.png"></div>
+	              <div class="topnav-icon"><img style="width: 25px;margin-top: -1px; margin-left: -3px" src="./images/bell.png"></div> 
+	              <button style="background: transparent; border: none;" onclick="document.getElementById('id01').style.display='block'" style="width:auto;"><img src="./images/login.png"></button>
+
+	</div>
+
+         
+
+
+         <!-- for login page -->
+
+
+         <div id="id01" class="modal">
+			  
+			  <form class="modal-content animate" action="/action_page.php">
+			    <div class="imgcontainer">
+			      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+			      <samp style="font-size: 25px;" >Log In</samp>
+			    </div>
+
+			    <div class="container">
+			      <label for="uname"><b>Username</b></label>
+			      <input type="text" placeholder="Enter Username" name="uname" required>
+
+			      <label for="psw"><b>Password</b></label>
+			      <input type="password" placeholder="Enter Password" name="psw" required>
+			        
+			      <button type="submit">Login</button>
+			      <label>
+			        <input type="checkbox" checked="checked" name="remember"> Remember me
+			      </label>
+
+			        <div style="background-color:#f1f1f1;	 margin-top:50px;">
+			          <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+			        <span class="psw">Forgot <a href="#">password?</a></span>
+			        </div>
+			    </div>
+
+			  
+			  </form>
+         	</div>
+
+
+         <!--this is for sticky note  -->
+               <div class="container-sticky"> 
+               	  
+               	   <div class="note-creater">
+               	   	    <div><input class="take-a-note" type="text" name="take-a-note" placeholder="Take a note..."></div>
+               	   	    <div class="note-icon"><img style="width: 20px;" src="./images/list.png" onclick="document.getElementById('list-item').style.display = 'block'"></div>
+               	   	    <div class="note-icon"><img style="margin-top:-2px;  "src="./images/picture	.png"></div>
+               	   </div>
+
+         <!-- TITLE OPEN -->
+
+                     <div style=" align-items: center; display: none; " class="list-item" id="list-item">
+                        <ul style="list-style: none; "> 
+                          <li>	
+                           <div style="display: flex;">
+                           	 <div style="  color: rgba(0,0,0,.54);"> 
+                           	 	<input style="border: none; margin-left: 15px; height: 25px; font-weight: bold;"  type="text" name="list-item" placeholder="Title" id="title">
+                           	 </div>
+                           </div>	
+                           <div style="margin-left: 500px; margin-top: -25px;">
+                           	  <svg class="sidenav-icon" xmlns="http://www.w3.org/2000/svg" width="20" heigh t="20" viewBox="0 0 24 24"><path d="M16 5h.99L17 3H7v2h1v7l-2 2v2h5v6l1 1 1-1v-6h5v-2l-2-2V5z"></path><path fill="none" d="M0 0h24v24H0z"></path></svg>
+                           </div>
+                       </li>
+                         <li> 
+                           <div>
+                              <div >
+                              	 <svg width="24px" xmlns="http://www.w3.org/2000/svg" fill="#000000" viewBox="0 0 24 24" height="24px" class="sidenav-icon"><path d="m19 13h-6v6h-2v-6h-6v-2h6v-6h2v6h6v2z"></path><path d="m0 0h24v24h-24z" fill="none"></path> </svg>
+                              	 <input style="border: none; margin-left: 15px; height: 25px"  type="text" name="list-item" placeholder="List item" id="list-text">
+                               </div>
+                           	
+                           </div>
+                          </li>
+
+                          <li style="display: flex;">
+                          	<div><svg style="width: 20px; margin-right: 25px;	" width="24px" xmlns="http://www.w3.org/2000/svg" fill="#000000" viewBox="0 0 24 24" height="24px" class="sidenav-icon"><path d="m0 0h24v24h-24z" fill="none"></path><path d="m20.78 13.16l-6.05-3.02c-0.23-0.09-0.47-0.14-0.73-0.14h-1v-2h1.75c1.66 0 3-1.34 3-3s-1.34-3-3-3c-0.75 0-1.14 0.22-1.75 0.75v-0.75c0-1.1-0.9-2-2-2s-2 0.9-2 2v0.75c-0.61-0.53-1-0.75-1.75-0.75-1.66 0-3 1.34-3 3s1.34 3 3 3h1.75v8.31l-4.57-0.95c-0.1-0.02-0.21-0.03-0.32-0.03-0.41 0-0.79 0.17-1.06 0.44l-1.05 1.06 6.59 6.59c0.36 0.36 0.86 0.58 1.41 0.58h9.06c1 0 1.77-0.74 1.92-1.7l1-7.03c0.01-0.09 0.02-0.18 0.02-0.27 0-0.83-0.5-1.54-1.22-1.84zm-11.53-6.16h-2c-1.1 0-2-0.9-2-2s0.9-2 2-2 2 0.9 2 2v2zm3.5-2c0-1.1 0.9-2 2-2s2 0.9 2 2-0.9 2-2 2h-2v-2z"></path>
+						    </svg></div>
+
+						    <div style="margin-right: 25px;">
+						    	<img class="sidenav-icon" src="./images/user.png">
+						    </div >
+						     <div style="margin-right: 25px;">
+						    	<img class="sidenav-icon" style="width: 20px" src="./images/color.png">
+						    </div>
+						     <div style="margin-right: 25px;">
+						    	<img class="sidenav-icon" src="./images/picture.png">
+						    </div>
+						    <div style="margin-right: 25px;">
+						    	<svg width="24px" xmlns="http://www.w3.org/2000/svg" fill="#000000" viewBox="0 0 24 24" height="24px" class="sidenav-icon"><path d="m20.54 5.23l-1.39-1.68c-0.27-0.34-0.68-0.55-1.15-0.55h-12c-0.47 0-0.88 0.21-1.16 0.55l-1.38 1.68c-0.29 0.34-0.46 0.79-0.46 1.27v12.5c0 1.1 0.9 2 2 2h14c1.1 0 2-0.9 2-2v-12.5c0-0.48-0.17-0.93-0.46-1.27zm-8.54 12.27l-5.5-5.5h3.5v-2h4v2h3.5l-5.5 5.5zm-6.88-12.5l0.81-1h12l0.94 1h-13.75z"></path><path d="m0 0h24v24h-24z" fill="none"></path>
+						 		 	 </svg>
+						    </div>
+						     <div style="margin-right: 25px;">
+						    	<img class="sidenav-icon" style="width: 20px" src="./images/dot.png">
+						    </div>
+						    <div style="margin-right: 25px;">
+						    	<img class="sidenav-icon" src="./images/undo.png">
+						    </div>
+						    <div style="margin-right: 25px;">
+						    	<img class="sidenav-icon" src="./images/redo.png">
+						    </div>
+                             
+                             <div>
+						    	<div class="btm" id="btm-edit" style="cursor: pointer; margin-left: -10px " onclick="   
+						    	                   var hue = 'rgb(' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) + ')'; 
+						    	                   var div = document.createElement('div');
+						    	                   div.style.float= 'left';
+                                                   div.style.height = '100px';
+                                                   div.style.width ='100px';
+                                                   div.style.margin= '25px';
+                                                   div.style.background = hue;
+                                                   div.style.color = 'white';
+                                                   div.innerHTML = 'Hello';
+                                                   div.innerHTML = document.getElementById('note').innerHTML;
+                                                   div.innerHTML = document.getElementById('title').value;
+                                                   div.innerHTML = document.getElementById('list-text').value;
+                                                  document.body.appendChild(div);
+                                                  
+                                  ">CREATE</div>
+						    </div>
+
+						    <div>
+						    	<div class="btm" id="btm-edit" style="cursor: pointer; margin-left: -10px;" onclick="document.getElementById('list-item').style.display = 'none'" >CLOSE</div>
+						    </div>
+
+                           </li>
+                           
+                       </ul>
+                    </div>
+
+
+
+        <!-- Sticky notes -->
+
+           <div class="sticky-container" style="margin: 300px; margin-left: 300px; background-color: blue; width: 500px;">
+           	   
+                <div id="note">
+                        <div id="note-title"></div>
+                        <div id="note-text"></div> 
+                  </div>
+
+           </div>
+
+               	    
+            
+  </div>
+
+            
+
+</body>
+</html>
